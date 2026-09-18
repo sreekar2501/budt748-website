@@ -1,0 +1,60 @@
+/* styles3.css — Contact Page (exported from Figma frame "Contact Page", cleaned up in VS Code) */
+.contact-content {
+  padding: 40px 0 80px;
+}
+.contact-content h1 {
+  font-weight: 700;
+  font-size: 44px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.contact-content .subtitle {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.contact-content .card-panel {
+  background: rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  padding: 24px;
+  height: 100%;
+}
+.contact-content .card-panel h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #a8ff35;
+  margin-bottom: 16px;
+}
+.contact-content .card-panel p {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.contact-content .card-panel a {
+  color: #ffffff;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.contact-content .card-panel a:hover {
+  color: #a8ff35;
+}
+.contact-form .form-label {
+  font-weight: 600;
+}
+.contact-form .form-control {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #fff;
+}
+.contact-form .form-control::placeholder { color: rgba(255, 255, 255, 0.5); }
+.contact-form .form-control:focus {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: #a8ff35;
+  box-shadow: 0 0 0 0.2rem rgba(168, 255, 53, 0.25);
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .contact-content h1 { font-size: 30px; }
+  .contact-content .subtitle { font-size: 18px; }
+}

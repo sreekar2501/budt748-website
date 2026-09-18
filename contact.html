@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sreekar Palury | Contact</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles3.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark site-nav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Sreekar Palury</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Homepage</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="contact-content">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p class="subtitle">Reach out to the course team for support or inquiries.</p>
+
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card-panel">
+            <h2>Professor</h2>
+            <p>Paul T. Shapiro &ndash; <a href="mailto:pshapiro@umd.edu">pshapiro@umd.edu</a></p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card-panel">
+            <h2>Teaching Assistants</h2>
+            <p>Bharath Sreekumar &ndash; <a href="mailto:bsreekum@umd.edu">bsreekum@umd.edu</a></p>
+            <p>Caifu Lin &ndash; <a href="mailto:clin0817@terpmail.umd.edu">clin0817@terpmail.umd.edu</a></p>
+            <p>Sumanth Devara &ndash; <a href="mailto:sdevara@umd.edu">sdevara@umd.edu</a></p>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="card-panel">
+            <h2>Send a Message</h2>
+            <form class="contact-form" action="#" method="post" onsubmit="event.preventDefault(); alert('Thanks! Your message has been noted.');">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="How can we help?"></textarea>
+              </div>
+              <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="site-footer">
+    <div class="container">&copy; 2026 Sreekar Palury &middot; BUDT748 &middot; Built with HTML, CSS &amp; Bootstrap</div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

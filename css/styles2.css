@@ -1,0 +1,40 @@
+/* styles2.css — About Page (exported from Figma frame "About Page", cleaned up in VS Code) */
+.about-content {
+  padding: 40px 0 80px;
+}
+.about-content h1 {
+  font-weight: 700;
+  font-size: 44px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+.about-content p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.45;
+  margin-bottom: 28px;
+}
+.about-content .details p {
+  margin-bottom: 20px;
+}
+.about-content .card-panel {
+  background: rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  padding: 24px;
+  height: 100%;
+}
+.about-content .card-panel h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #a8ff35;
+  margin-bottom: 12px;
+}
+.about-content .card-panel p {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+@media (max-width: 768px) {
+  .about-content h1 { font-size: 30px; }
+  .about-content p { font-size: 17px; }
+}
